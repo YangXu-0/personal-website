@@ -1,38 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+:root {
+  --panel-bg-color: #243c54;
+  --panel-txt-color: #f4dcbb;
+  --normal-txt-color: #243c54;
+}
+
 .App {
   text-align: center;
+  background-color: #b6d6d2;
+
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100vh 500px 400px 500px 30px;
+  grid-template-areas:
+  "top1"
+  "about"
+  "experience"
+  "contact"
+  "credits";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Top {
+  grid-area: "top1";
+  color: var(--normal-txt-color);
+
+  width: 100vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#About {
+  grid-area: about;
+  text-align: center;
+  background-color: var(--panel-bg-color);
+  color: var(--panel-txt-color);
+
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+#Experience {
+  grid-area: experience;
+  color: var(--normal-txt-color);
+
+  width: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Contact {
+  grid-area: contact;
+  background-color: var(--panel-bg-color);
+  color: var(--panel-txt-color);
+
+  width: 100vw;
+}
+
+#Credits {
+  grid-area: credits;
+  background-color: var(--panel-bg-color);
+  color: var(--panel-txt-color);
 }
