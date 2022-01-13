@@ -6,6 +6,8 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+
+  font-family: 'Lato', sans-serif;
 }
 
 :root {
@@ -16,7 +18,6 @@
 
 .App {
   text-align: center;
-  background-color: #b6d6d2;
 
   top: 0;
   left: 0;
@@ -38,7 +39,7 @@ main {
 }
 
 #Top {
-  grid-area: "top1";
+  grid-area: top1;
   color: var(--normal-txt-color);
 
   width: 100vw;

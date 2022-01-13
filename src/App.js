@@ -1,35 +1,42 @@
 import './App.css';
+import Top from './Components/top.js'
 
 function App() {
   return (
     <div className="App">
+
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+      </head>
+
       <body>
 
         <main>
-          <div id="Top">
-            <p>Hi, I'm</p>
-            <p>Yang Xu.</p>
-            <p>Welcome to my Website</p>
-          </div>
 
-          <div id="About">
+          <section id="Top">
+            <Top />
+          </section>
+
+          <section id="About">
             <h3>About</h3>
-          </div>
+          </section>
 
-          <div id="Experience">
+          <section id="Experience">
             <h3>Where I've Worked</h3>
-          </div>
+          </section>
 
-          <div id="Contact">
+          <section id="Contact">
             <h3>Get in Touch!</h3>
-          </div>
+          </section>
 
-          <div id="Credits">
+          <section id="Credits">
             <p>Designed and Built by Yang Xu</p>
-          </div>
+          </section>
 
         </main>
-
+        
       </body>
     </div>
   );

@@ -1,0 +1,53 @@
+#top-container {
+    font-family: 'Lato', 'sans-serif';
+
+    display: grid;
+    grid-template-columns: 1.6fr 700px 3fr;
+    grid-template-rows: 1fr 200px 140px 240px 1fr;
+    grid-template-areas:
+        ". . ."
+        ". Hi Pic"
+        ". Name Pic"
+        ". Welcome Pic"
+        ". . .";
+
+    height: 100%;
+    width: 100vw;
+    text-align: left;
+
+    background-image: url("./Assets/WebsiteBackground.png");
+    background-repeat: no-repeat;
+}
+
+#Hi {
+    grid-area: Hi;
+
+    display: flex;
+    align-items: flex-end;
+
+    font-size: 25px;
+}
+
+#Name {
+    grid-area: Name;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#Welcome {
+    grid-area: Welcome;
+
+    display: flex;
+    align-items: flex-start;
+    font-size: 40px;
+}
+
+#Pic {
+    grid-area: Pic;
+    height: 100%;
+    padding-left: 250px;
+}
