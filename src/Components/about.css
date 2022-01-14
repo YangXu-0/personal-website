@@ -27,7 +27,7 @@
 
 #about-body {
     grid-area: text;
-    display: flex-end;
+    display: flex;
 
     align-items: flex-start;
     font-size: 25px;

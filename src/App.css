@@ -1,3 +1,5 @@
+@import './Components/colors.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +10,6 @@
   background: transparent;
 
   font-family: 'Lato', sans-serif;
-}
-
-:root {
-  --panel-bg-color: #243c54;
-  --panel-txt-color: #f4dcbb;
-  --normal-txt-color: #243c54;
 }
 
 .App {
@@ -29,7 +25,7 @@
 main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100vh 800px 400px 500px 30px;
+  grid-template-rows: 100vh 800px 400px 700px 30px;
   grid-template-areas:
   "top1"
   "about"

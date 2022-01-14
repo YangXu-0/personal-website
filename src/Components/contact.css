@@ -1,0 +1,81 @@
+@import './colors.css';
+
+
+#contact-container {
+    font-family: 'Lato', 'sans-serif';
+
+    display: grid;
+    grid-template-columns: 1fr 500px 500px 1fr;
+    grid-template-rows: 0.35fr 200px 100px 100px 200px 1fr;
+    grid-template-areas:
+        ". . . ."
+        ". Title Title ."
+        ". pls pls ."
+        ". Phone Email ."
+        ". Github Linkedin ."
+        ". . . .";
+
+    height: 100%;
+    width: 100vw;
+    text-align: center;
+}
+
+#title {
+    grid-area: Title;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#job {
+    grid-area: pls;
+    font-size: 25px;
+}
+
+#phone {
+    grid-area: Phone;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+    font-size: 25px;
+}
+
+#email {
+    grid-area: Email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+    font-size: 25px;
+}
+
+#github {
+    grid-area: Github;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+#linkedin {
+    grid-area: Linkedin;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.favicons {
+    font-size: 70px;
+    color: var(--panel-txt-color);
+}

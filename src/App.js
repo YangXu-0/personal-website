@@ -1,6 +1,7 @@
 import './App.css';
 import Top from './Components/top.js';
 import About from './Components/about.js';
+import Contact from './Components/contact.js';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           </section>
 
           <section id="Contact">
-            <h3>Get in Touch!</h3>
+            <Contact />
           </section>
 
           <section id="Credits">
