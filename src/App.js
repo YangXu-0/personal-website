@@ -1,5 +1,6 @@
 import './App.css';
-import Top from './Components/top.js'
+import Top from './Components/top.js';
+import About from './Components/about.js';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           </section>
 
           <section id="About">
-            <h3>About</h3>
+            <About />
           </section>
 
           <section id="Experience">
@@ -43,3 +44,10 @@ function App() {
 }
 
 export default App;
+
+/* TODO:
+    - finish all sections
+    - header
+    - media query
+    - fade in or smth
+*/

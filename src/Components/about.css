@@ -1,0 +1,34 @@
+#about-container {
+    font-family: 'Lato', 'sans-serif';
+
+    display: grid;
+    grid-template-columns: 1fr 1000px 3fr;
+    grid-template-rows: 1fr 90px 400px 1fr;
+    grid-template-areas:
+    " . . ."
+    ". title picture"
+    ". text picture"
+    ". . .";
+
+    height: 100%;
+    width: 100vw;
+    text-align: left;
+}
+
+#about-heading {
+    grid-area: title;
+    display: flex;
+
+    align-items: flex-end;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#about-body {
+    grid-area: text;
+    display: flex-end;
+
+    align-items: flex-start;
+    font-size: 25px;
+}

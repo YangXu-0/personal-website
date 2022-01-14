@@ -29,7 +29,7 @@
 main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100vh 500px 400px 500px 30px;
+  grid-template-rows: 100vh 800px 400px 500px 30px;
   grid-template-areas:
   "top1"
   "about"
