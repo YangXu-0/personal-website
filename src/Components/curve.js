@@ -5,7 +5,7 @@ function Curve (props) {
         <div id="curve-container">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"></link>
             
-            <div class="spacer layer1">.</div>
+            <div class="spacer layer1"></div>
         </div>
     )
 }

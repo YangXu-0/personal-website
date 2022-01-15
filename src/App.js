@@ -2,7 +2,6 @@ import './App.css';
 import Top from './Components/top.js';
 import About from './Components/about.js';
 import Experience from './Components/experience.js';
-
 import Contact from './Components/contact.js';
 import Credits from './Components/credits.js';
 
