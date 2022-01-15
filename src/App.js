@@ -2,6 +2,7 @@ import './App.css';
 import Top from './Components/top.js';
 import About from './Components/about.js';
 import Contact from './Components/contact.js';
+import Credits from './Components/credits.js';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           </section>
 
           <section id="Credits">
-            <p>Designed and Built by Yang Xu</p>
+            <Credits />
           </section>
 
         </main>

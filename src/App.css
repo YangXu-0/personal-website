@@ -19,13 +19,15 @@
   left: 0;
 
   height: 100%;
-  width: 100vw;
+  width: 100%;
+
+  overflow: hidden;
 }
 
 main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100vh 800px 400px 850px 30px;
+  grid-template-rows: 100vh 800px 400px 860px 60px;
   grid-template-areas:
   "top1"
   "about"
