@@ -1,0 +1,22 @@
+#experience-container {
+    font-family: 'Lato', 'sans-serif';
+    height: 100%;
+    width: 100vw;
+
+    background-image: url('./Assets/webExpBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    grid-template-rows: 1fr 60px 100px 200px;
+    grid-template-areas: 
+    ". . ."
+    ". heading ."
+    ". table ."
+    "curve curve curve";
+}
+
+#curve {
+    grid-area: curve;
+}

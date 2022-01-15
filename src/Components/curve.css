@@ -1,0 +1,16 @@
+#curve-container {
+    height: 100%;
+    width: 100vw;
+}
+
+.spacer {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.layer1 {
+    background-image: url('./Assets/layer1.svg');
+}

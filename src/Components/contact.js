@@ -3,11 +3,9 @@ import './contact.css';
 function Contact(props) {
     return (
         <div id="contact-container">
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"></link>
             
-            <div class="spacer layer1"></div>
             <p id="title">Get in Touch!</p>
-            <p id="job">I'm currently looking for any summer student opportunities!
+            <p id="job">I'm currently looking for any student summer opportunities!
             If you have something available, I would love to connect with you and learn more!
             My contact information can be found below.</p>
             <p id="phone">Phone: (+1) 647-971-0375</p>

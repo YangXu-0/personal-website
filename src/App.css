@@ -27,7 +27,7 @@
 main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100vh 800px 400px 860px 60px;
+  grid-template-rows: 100vh 800px 1200px 560px 60px;
   grid-template-areas:
   "top1"
   "about"
@@ -52,6 +52,7 @@ main {
   color: var(--panel-txt-color);
 
   width: 100vw;
+  z-index: 998;
 }
 
 #Experience {

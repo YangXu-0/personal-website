@@ -1,6 +1,8 @@
 import './App.css';
 import Top from './Components/top.js';
 import About from './Components/about.js';
+import Experience from './Components/experience.js';
+
 import Contact from './Components/contact.js';
 import Credits from './Components/credits.js';
 
@@ -27,7 +29,7 @@ function App() {
           </section>
 
           <section id="Experience">
-            <h3>Where I've Worked</h3>
+            <Experience />
           </section>
 
           <section id="Contact">
