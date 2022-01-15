@@ -25,7 +25,7 @@
 main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100vh 800px 400px 700px 30px;
+  grid-template-rows: 100vh 800px 400px 850px 30px;
   grid-template-areas:
   "top1"
   "about"
@@ -39,6 +39,8 @@ main {
   color: var(--normal-txt-color);
 
   width: 100vw;
+
+  z-index: 999;
 }
 
 #About {

@@ -5,6 +5,7 @@ function Contact(props) {
         <div id="contact-container">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"></link>
             
+            <div class="spacer layer1"></div>
             <p id="title">Get in Touch!</p>
             <p id="job">I'm currently looking for any summer student opportunities!
             If you have something available, I would love to connect with you and learn more!
