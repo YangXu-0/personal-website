@@ -5,8 +5,37 @@ import Experience from './Components/experience.js';
 import Contact from './Components/contact.js';
 import Credits from './Components/credits.js';
 import Resume from './Components/Assets/Yang_Xu_Resume.pdf';
+import React from 'react';
 
 function App() {
+
+  React.useEffect(() => {
+    const body = document.body;
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+
+      console.log("ran");
+      const currentScroll = window.pageYOffset;
+
+      if (currentScroll <= 0) {
+        body.classList.remove("scroll-up");
+      }
+
+      if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
+        body.classList.remove("scroll-up")
+        body.classList.add("scroll-down")
+      }
+
+      if (currentScroll < lastScroll && !body.classList.contains("scroll-up")) {
+        body.classList.remove("scroll-down")
+        body.classList.add("scroll-up")
+      }
+
+      lastScroll = currentScroll;
+    })
+  })
+
   return (
     <div className="App">
 
@@ -15,7 +44,7 @@ function App() {
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
 
       <body>
-        <section id="Heading">
+        <section id="Heading" className="header-animation">
           <a id="Welcome-head" href="#Top">Welcome</a>
           <a id="About-head" href="#About">About</a>
           <a id="Experience-head" href="#Experience">Work Experience</a>
@@ -43,7 +72,6 @@ function App() {
           <section id="Credits">
             <Credits />
           </section>
-
         </main>
         
       </body>
@@ -54,7 +82,6 @@ function App() {
 export default App;
 
 /* TODO:
-    - header
     - media query
-    - fade in or smth
+    - make the current tab highlighted in the header
 */
