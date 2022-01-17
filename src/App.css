@@ -27,7 +27,7 @@
 main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100vh 800px 1300px 560px 60px;
+  grid-template-rows: 100vh 800px 1100px 560px 60px;
   grid-template-areas:
   "top1"
   "about"

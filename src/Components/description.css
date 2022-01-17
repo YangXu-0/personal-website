@@ -1,0 +1,48 @@
+.description-container {
+    font-family: 'Lato', 'sans-serif';
+
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 650px 1fr;
+    grid-template-rows: 1fr 80px 30px 400px 1fr; 
+    grid-template-areas:
+    ". . ."
+    ". heading ."
+    ". date ."
+    ". details. "
+    ". . .";
+}
+
+.job-heading {
+    grid-area: heading;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.date {
+    grid-area: date;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 17px;
+}
+
+.details {
+    grid-area: details;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+
+    padding-top: 20px;
+
+    font-size: 20px;
+    line-height: 40px;
+}

@@ -4,4 +4,9 @@
 
 .active[data-tab-content] {
     display: block;
+    height: 100%;
+}
+
+.active-li {
+    background-color: rgba(var(--work-table-active-color), 0.95);
 }

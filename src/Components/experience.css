@@ -8,8 +8,8 @@
     background-size: cover;
 
     display: grid;
-    grid-template-columns: 1fr 800px 1fr;
-    grid-template-rows: 100px 150px 650px 1fr 200px;
+    grid-template-columns: 1fr 1000px 1fr;
+    grid-template-rows: 100px 150px 540px 1fr 200px;
     grid-template-areas: 
     ". . ."
     ". heading ."
@@ -31,18 +31,49 @@
 #table {
     grid-area: table;
     display: grid;
-    grid-template-columns: 1fr 200px 600px 1fr;
+    grid-template-columns: 1fr 250px 750px 1fr;
     grid-template-areas:
-    ". jobs description ."
+    ". jobs description .";
+
+    color: var(--panel-txt-color);
+    box-shadow: 8px 10px 20px var(--shadow-color);
+}
+
+/* To add new jobs, just add another li to "job-listing" */
+
+#job-listing-container {
+    grid-area: jobs;
+    display: flex;
+    flex-direction: column;
 }
 
 #job-listing {
-    grid-area: jobs;
-    font-size: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.job-list {
+    background-color: rgba(var(--work-table-active-color), 0.82);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    height: 90px;
+    list-style-type: none;
+}
+
+#filler {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(var(--work-table-back-color), 0.5);
 }
 
 #job-descriptions {
     grid-area: description;
+    background-color: rgba(var(--work-table-active-color), 0.95);
+    height: 100%;
 }
 
 #curve {
