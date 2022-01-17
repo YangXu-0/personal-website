@@ -6,7 +6,7 @@
 
     display: grid;
     grid-template-columns: 1fr 650px 1fr;
-    grid-template-rows: 1fr 80px 30px 400px 1fr; 
+    grid-template-rows: 1fr 80px 40px 400px 1fr; 
     grid-template-areas:
     ". . ."
     ". heading ."
@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: flex-start;
 
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .details {
@@ -43,6 +43,6 @@
 
     padding-top: 20px;
 
-    font-size: 20px;
+    font-size: 23px;
     line-height: 40px;
 }

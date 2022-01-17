@@ -55,7 +55,7 @@
 }
 
 .job-list {
-    background-color: rgba(var(--work-table-active-color), 0.82);
+    background-color: rgba(var(--work-table-active-color), 0.86);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -64,10 +64,15 @@
     list-style-type: none;
 }
 
+.job-list:hover {
+    background-color: rgba(var(--work-table-active-color), 0.90);
+    cursor: pointer;
+}
+
 #filler {
     height: 100%;
     width: 100%;
-    background-color: rgba(var(--work-table-back-color), 0.5);
+    background-color: rgba(var(--work-table-back-color), 0.6);
 }
 
 #job-descriptions {

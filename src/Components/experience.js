@@ -4,29 +4,6 @@ import Curve from './curve.js';
 import './description.css';
 import React from "react";
 
-
-function Description(title, company, date, details) {
-
-    React.useEffect(() => {
-        var bullets = "";
-
-        details.forEach(detail => {
-            bullets += "<li>" + detail + "</li>";
-        })
-
-        document.getElementsByClassName("details").innerHTML = bullets;
-    })
-
-    return (
-        <div class="description-container">
-            <p class="job-heading">{title} @ {company}</p>
-            <p class="date">{date}</p>
-            <ul className="details"></ul>
-        </div>
-    );
-}
-
-
 function Experience (props) {
 
     React.useEffect(() => {

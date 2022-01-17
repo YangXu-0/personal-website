@@ -1,5 +1,3 @@
-@import './Components/colors.css';
-
 * {
   margin: 0;
   padding: 0;
@@ -12,16 +10,48 @@
   font-family: 'Lato', sans-serif;
 }
 
-.App {
+.app {
   text-align: center;
+  overflow: hidden;
 
   top: 0;
   left: 0;
-
   height: 100%;
   width: 100%;
+}
 
-  overflow: hidden;
+#Heading {
+  position: fixed;
+  backdrop-filter: blur(10px);
+  height: 95px;
+  width: 100vw;
+  z-index: 999;
+  box-shadow: 0px 1px 10px var(--shadow-color);
+  background-color: rgba(var(--header-color), 0.5);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-size: 25px;
+}
+
+#Heading a {
+  margin: 40px;
+  text-decoration: none;
+  color: var(--normal-txt-color);
+}
+
+#Heading a:hover {
+  color: var(--hover-txt-color) !important;
+  text-decoration: underline;
+}
+
+#Resume-head {
+  width: 150px;   /* to push away from scroll bar */
+  text-decoration: underline !important;
+  color: var(--resume-color) !important;
 }
 
 main {
@@ -42,7 +72,7 @@ main {
 
   width: 100vw;
 
-  z-index: 999;
+  z-index: 998;
 }
 
 #About {
@@ -52,7 +82,7 @@ main {
   color: var(--panel-txt-color);
 
   width: 100vw;
-  z-index: 998;
+  z-index: 997;
 }
 
 #Experience {

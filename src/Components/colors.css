@@ -2,7 +2,10 @@
     --panel-bg-color: #243c54;
     --panel-txt-color: #f4dcbb;
     --normal-txt-color: #243c54;
+    --hover-txt-color: #A90FD4;
     --shadow-color: #0b1629;
     --work-table-active-color: 36, 60, 84;
     --work-table-back-color: 36, 60, 84;
+    --header-color: 250, 250, 250;
+    --resume-color: #E52DF5;
   }
