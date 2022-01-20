@@ -85,3 +85,24 @@
     grid-area: curve;
     box-shadow: 0px -100px 22px -3 var(--shadow-color);
 }
+
+/* start scaling this section, contact, and credits at 1600px width or maybe 1050px height*/
+@media only screen and (max-height: 1051px) {
+    #experience-container {
+        grid-template-columns: 1fr 850px 1fr;
+        grid-template-rows: 100px 150px 430px 1fr 200px;
+    }
+
+    #heading {
+        font-size: 50px;
+        padding-bottom: 0px;
+    }
+
+    #table {
+        grid-template-columns: 1fr 200px 650px 1fr;
+    }
+    
+    #job-listing {
+        font-size: 17px;
+    }
+}

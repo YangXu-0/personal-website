@@ -15,7 +15,6 @@ function App() {
 
     window.addEventListener('scroll', () => {
 
-      console.log("ran");
       const currentScroll = window.pageYOffset;
 
       if (currentScroll <= 0) {

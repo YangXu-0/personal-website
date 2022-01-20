@@ -46,3 +46,18 @@
     font-size: 23px;
     line-height: 40px;
 }
+
+@media only screen and (max-height: 1051px) {
+    .description-container {
+        grid-template-columns: 1fr 550px 1fr;
+        grid-template-rows: 1fr 50px 30px 280px 1fr; 
+    }
+
+    .details {
+        font-size: 19px;
+    }
+
+    .job-heading {
+        font-size: 23px;
+    }
+}

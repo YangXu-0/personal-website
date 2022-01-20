@@ -7,7 +7,9 @@ function Top(props) {
             <p id="Hi">Hi, my name is</p>
             <p id="Name">Yang Xu.</p>
             <p id="Welcome">Welcome to my Website</p>
-            <img id="Pic" src={profile} alt="Yang Xu"/>
+            <div id="Picture-container">
+                <img id="Pic" src={profile} alt="Yang Xu"/>
+            </div>
         </div>
     );
 }

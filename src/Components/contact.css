@@ -1,6 +1,5 @@
 @import './colors.css';
 
-
 #contact-container {
     font-family: 'Lato', 'sans-serif';
 
@@ -16,7 +15,7 @@
         ". . . .";
 
     height: 100%;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 
 }
@@ -83,4 +82,26 @@
 
 a:hover, a:focus, a:active, a:visited, a:link{
     text-decoration: none;
+}
+
+@media only screen and (max-height: 760px) {
+    #title {
+        font-size: 3.3vw;
+    }
+
+    #job {
+        font-size: 1.6vw;
+    }
+
+    #phone {
+        font-size: 1.6vw;
+    }
+
+    #email {
+        font-size: 1.6vw;
+    }
+
+    .favicons {
+        font-size: 3.5vw;
+    }
 }
