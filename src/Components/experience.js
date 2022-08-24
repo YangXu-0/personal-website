@@ -36,7 +36,8 @@ function Experience (props) {
             <div id="table">
                 <div id="job-listing-container">
                     <ul id="job-listing">
-                        <li data-tab-target="#web-intern" class="active-li job-list">TechForGood Inc.</li>
+                        <li data-tab-target="#amd" class="active-li job-list">AMD</li>
+                        <li data-tab-target="#web-intern" class="job-list">TechForGood Inc.</li>
                         <li data-tab-target="#wells" class="job-list">Well's Academy</li>
                         <li data-tab-target="#swim" class="job-list">City of Richmond Hill</li>
                     </ul>
@@ -44,13 +45,24 @@ function Experience (props) {
                 </div>
 
                 <div id="job-descriptions">
-                    <div id="web-intern" class="active" data-tab-content>
+                    <div id="amd" class="active" data-tab-content>
+                        <div class="description-container">
+                            <p class="job-heading">Power and Performance Engineering Intern @ AMD</p>
+                            <p class="date">May 2022 - August 2022</p>
+                            <ul className="details">
+                                <li>Maintained and developed new Python-based analysis tools and automation scripts to improve efficiency of experimentation and data analysis.</li>
+                                <li>Developed an accurate ML model to dynamically process experiment data, improving efficiency and enabling new tools for the future.</li>
+                                <li>Conducted a series of experiments aimed at exploring next-gen Smart Shift features to improve performance and power allocation in new AAA laptops.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="web-intern" data-tab-content>
                         <div class="description-container">
                             <p class="job-heading">Web Development Intern @ TechForGood Inc.</p>
                             <p class="date">June 2021 - August 2021</p>
                             <ul className="details">
                                 <li>Developed the frontend for an education-focused website from scratch using node.JS, HTML/CSS, react, bootstrap, and jQuery.</li>
-                                <li>Effectively coordinated work remotely within a team of developers across the world to accomplish projects.</li>
+                                <li>Coordinated work remotely with a small team of developers to ensure high quality was delivered on time.</li>
                             </ul>
                         </div>
                     </div>
@@ -69,8 +81,8 @@ function Experience (props) {
                             <p class="job-heading">Swimming Instructor @ City of Richmond Hill</p>
                             <p class="date">Sept. 2019 - Nov. 2019</p>
                             <ul className="details">
-                                <li>Led swimming classes ranging from 1-10 students.</li>
-                                <li>Communicated clearly with supervisors to ensure patron safety.</li>
+                                <li>Led swimming classes ranging from 1-10 students across all ages.</li>
+                                <li>Communicated clearly with supervisors and guardians to ensure safety.</li>
                             </ul>
                         </div>
                     </div>

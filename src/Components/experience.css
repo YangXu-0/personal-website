@@ -90,7 +90,7 @@
 @media only screen and (max-height: 1051px) {
     #experience-container {
         grid-template-columns: 1fr 850px 1fr;
-        grid-template-rows: 100px 150px 430px 1fr 200px;
+        grid-template-rows: 80px 150px 500px 1fr 200px;
     }
 
     #heading {
