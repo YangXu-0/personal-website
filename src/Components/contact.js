@@ -11,7 +11,7 @@ function Contact(props) {
             <p id="phone"><b>Phone:</b> &nbsp; (+1) 647-971-0375</p>
             <p id="email"><b>Email:</b> &nbsp; yangxu.toronto@gmail.com</p>
             <a href="https://www.github.com/YangXu-0" id="github"><i class="fab fa-github favicons"></i></a>
-            <a href="https://www.linkedin.com/in/yang-xu-link/" id="linkedin"><i class="fab fa-linkedin favicons"></i></a>
+            <a href="https://www.linkedin.com/in/yangxu0/" id="linkedin"><i class="fab fa-linkedin favicons"></i></a>
         </div>
     );
 }

@@ -13,7 +13,7 @@ function About(props) {
                 <br></br>
                 <p>
                     I love working with all sorts of technology! Recently, I've been getting really into 
-                    machine learning with Tensorflow and web development using tools like React and JavaScript 
+                    machine learning with PyTorch and web development using tools like React and JavaScript 
                     (which is what I made this website with!).
                 </p>
                 <br></br>

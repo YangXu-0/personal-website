@@ -9,7 +9,7 @@
 
     display: grid;
     grid-template-columns: 1fr 1000px 1fr;
-    grid-template-rows: 100px 150px 540px 1fr 200px;
+    grid-template-rows: 100px 150px 590px 1fr 200px;
     grid-template-areas: 
     ". . ."
     ". heading ."

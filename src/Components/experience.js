@@ -50,9 +50,9 @@ function Experience (props) {
                             <p class="job-heading">Power and Performance Engineering Intern @ AMD</p>
                             <p class="date">May 2022 - August 2022</p>
                             <ul className="details">
-                                <li>Maintained and developed new Python-based analysis tools and automation scripts to improve efficiency of experimentation and data analysis.</li>
-                                <li>Developed an accurate ML model to dynamically process experiment data, improving efficiency and enabling new tools for the future.</li>
-                                <li>Conducted a series of experiments aimed at exploring next-gen Smart Shift features to improve performance and power allocation in new AAA laptops.</li>
+                                <li>Maintained and developed new Python-based benchmark automation scripts and data analysis tools (like data parsers and data visualization scripts) to streamline experimentation and data analysis work.</li>
+                                <li>Developed a 90% accurate machine learning model that dynamically processes experiment data, reducing 	the bog of trivial work and enabling new tools for the future.</li>
+                                <li>Conducted experiments aimed at exploring ideas for next-gen Smart Shift features to improve performance and power allocation in upcoming AMD powered laptops.</li>
                             </ul>
                         </div>
                     </div>
@@ -61,8 +61,8 @@ function Experience (props) {
                             <p class="job-heading">Web Development Intern @ TechForGood Inc.</p>
                             <p class="date">June 2021 - August 2021</p>
                             <ul className="details">
-                                <li>Developed the frontend for an education-focused website from scratch using node.JS, HTML/CSS, react, bootstrap, and jQuery.</li>
-                                <li>Coordinated work remotely with a small team of developers to ensure high quality was delivered on time.</li>
+                                <li>Worked with a team to develop the frontend for an education-focused website from scratch using node.JS, HTML/CSS, react, bootstrap, and jQuery.</li>
+                                <li>Coordinated work remotely with a small team of developers to deliver high quality work on time.</li>
                             </ul>
                         </div>
                     </div>
