@@ -1,6 +1,6 @@
 # Personal Website
 
-https://yang-xu-web.web.app/
+https://yangxu.ca/
 
 I made a simple personal website with React, JavaScript, and HTML/CSS to highlight some things about me. The website is currently hosted with Firebase because it's free and I don't want to buy a domain name :)
 
