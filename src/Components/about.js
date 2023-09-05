@@ -7,23 +7,17 @@ function About(props) {
             <h2 id="about-heading">About Me</h2>
             <div id="about-body">
                 <p>
-                    Hi! My name is Yang, I am an Engineering Science student at the University 
-                    of Toronto planning to specialize in Robotics Engineering or Machine Intelligence.
+                    Hi! My name is Yang, I am a 3rd year Engineering Science student at the University of Toronto majoring
+                    in Robotics Engineering and minoring in AI Engineering.
                 </p>
                 <br></br>
                 <p>
-                    I love working with all sorts of technology! Recently, I've been getting really into 
-                    machine learning with PyTorch and web development using tools like React and JavaScript 
-                    (which is what I made this website with!).
+                    I'm interested in research and development in robotics-related fields, 
+                    from computational physics to machine learning.
                 </p>
                 <br></br>
                 <p>
-                    Outside of tech, I enjoy skateboarding (there's a picture of me doing an ollie on the right) 
-                    and playing music on my guitar and drum set.
-                </p>
-                <br></br>
-                <p>
-                    Nice to meet you!
+                    Outside of tech, I enjoy skateboarding and playing music on my guitar and drum set!
                 </p>
             </div>
             <div id="pic-container">

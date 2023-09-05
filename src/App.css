@@ -69,8 +69,8 @@
 
 #Resume-head {
   width: 5vw;   /* to push away from scroll bar */
-  text-decoration: underline !important;
-  color: var(--resume-color) !important;
+  /*text-decoration: underline !important;
+  color: var(--resume-color) !important; */
 }
 
 main {

@@ -17,6 +17,7 @@
 
     background-image: url("./Assets/WebsiteBackground.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
     box-shadow: 0px 15px 22px var(--shadow-color);
 
@@ -43,7 +44,7 @@
     display: flex;
     align-items: flex-end;
 
-    font-size: 1.2vw;
+    font-size: 1.8vh;
 }
 
 #Name {
@@ -52,7 +53,7 @@
     display: flex;
     align-items: center;
 
-    font-size: 4vw;
+    font-size: 4.7vh;
     font-weight: bold;
 }
 
@@ -61,7 +62,7 @@
 
     display: flex;
     align-items: flex-start;
-    font-size: 2vw;
+    font-size: 2vh;
 }
 
 #Picture-container {
@@ -76,4 +77,18 @@
 #Pic {
     height: auto;
     max-width: 100%;
+}
+
+@media only screen and (max-height: 900px) {
+    #Hi {
+        font-size: 2.5vh;
+    }
+    
+    #Name {
+        font-size: 5.3vh;
+    }
+    
+    #Welcome {
+        font-size: 2.8vh;
+    }
 }

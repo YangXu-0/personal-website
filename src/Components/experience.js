@@ -31,28 +31,40 @@ function Experience (props) {
     return (
         <div id="experience-container">
 
-            <h3 id="heading">Where I've Worked</h3>
+            <h3 id="heading">Experience</h3>
 
             <div id="table">
                 <div id="job-listing-container">
                     <ul id="job-listing">
-                        <li data-tab-target="#amd" class="active-li job-list">AMD</li>
+                        <li data-tab-target="#rocscience" class="active-li job-list">Rocscience</li>
+                        <li data-tab-target="#amd" class="job-list">AMD</li>
                         <li data-tab-target="#web-intern" class="job-list">TechForGood Inc.</li>
-                        <li data-tab-target="#wells" class="job-list">Well's Academy</li>
-                        <li data-tab-target="#swim" class="job-list">City of Richmond Hill</li>
+                        <li data-tab-target="#projects" class="job-list">Projects</li>
                     </ul>
                     <div id="filler"> </div>
                 </div>
 
                 <div id="job-descriptions">
-                    <div id="amd" class="active" data-tab-content>
+                    <div id="rocscience" class="active" data-tab-content>
+                        <div class="description-container">
+                            <p class="job-heading">Research and Development Engineering Intern @ Rocscience</p>
+                            <p class="date">May 2023 - August 2023</p>
+                            <ul className="details">
+                                <li>Conducted in-depth <b>research in the field of rigid-body impact mechanics with friction</b> in both 2D and 3D settings, aimed at enhancing the accuracy of rockfall simulations in RocFall2 and RocFall3. </li>
+                                <li>Researched topics like <b>numerical optimization</b> (linear complementarity problems, quadratic programming, etc.) and theories of <b>impact mechanics</b> (like Stronge) to determine and fix physical inaccuracies in RocFall3.</li>
+                                <li>Executed experiments and performed thorough statistical analyses to validate math and software implementation, ensuring the reliability of the research outcomes. </li>
+                                <li>Implemented critical modifications to the existing RocFall3 impact engine using C++, resulting in a <b>theoretical accuracy increase of an estimated 50%</b> and a <b>practical performance improvement of an estimated 15%</b>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="amd" data-tab-content>
                         <div class="description-container">
                             <p class="job-heading">Power and Performance Engineering Intern @ AMD</p>
                             <p class="date">May 2022 - August 2022</p>
                             <ul className="details">
-                                <li>Maintained and developed new Python-based benchmark automation scripts and data analysis tools (like data parsers and data visualization scripts) to streamline experimentation and data analysis work.</li>
-                                <li>Developed a 90% accurate machine learning model that dynamically processes experiment data, reducing 	the bog of trivial work and enabling new tools for the future.</li>
-                                <li>Conducted experiments aimed at exploring ideas for next-gen Smart Shift features to improve performance and power allocation in upcoming AMD powered laptops.</li>
+                                <li><b>Programmed Python-based automation scripts and data-analysis tools</b> like data parsers and visualization scripts to streamline experimentation and data analysis work done by the team.</li>
+                                <li>Researched and developed a <b>90% accurate machine learning model</b> that scrubs gigabytes of raw data for useful information, reducing the bog of trivial work and enabling the potential for new data analysis tools in the future.</li>
+                                <li>Conducted experiments to <b>discover and test new methods of improving CPU and GPU power allocation</b> in Smart Shift to increase performance in future AMD-powered laptops.</li>
                             </ul>
                         </div>
                     </div>
@@ -61,28 +73,21 @@ function Experience (props) {
                             <p class="job-heading">Web Development Intern @ TechForGood Inc.</p>
                             <p class="date">June 2021 - August 2021</p>
                             <ul className="details">
-                                <li>Worked with a team to develop the frontend for an education-focused website from scratch using node.JS, HTML/CSS, react, bootstrap, and jQuery.</li>
-                                <li>Coordinated work remotely with a small team of developers to deliver high quality work on time.</li>
+                                <li><b>Developed frontend interfaces</b> for an initiative aimed at providing a user-friendly website for educators to build customized interactive activities for students without technical training to support education during the pandemic.</li>
+                                <li>Utilized <b>React (TypeScript), CSS, and HTML</b> to lead frontend development, delivering key components like the login page, user profiles, and interactive activity interfaces.</li>
                             </ul>
                         </div>
                     </div>
-                    <div id="wells" data-tab-content>
+                    <div id="projects" data-tab-content>
                         <div class="description-container">
-                            <p class="job-heading">Instructor @ Wells Academy</p>
-                            <p class="date">June 2021 - August 2021</p>
+                            <p class="job-heading">Featured Projects & Extracurriculars</p>
+                            <p class="date"><a href="https://github.com/YangXu-0">Link to all projects</a></p>
                             <ul className="details">
-                                <li>Taught a business class to high school students.</li>
-                                <li>Communicated with supervisors and parents to ensure student success.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="swim" data-tab-content>
-                        <div class="description-container">
-                            <p class="job-heading">Swimming Instructor @ City of Richmond Hill</p>
-                            <p class="date">Sept. 2019 - Nov. 2019</p>
-                            <ul className="details">
-                                <li>Led swimming classes ranging from 1-10 students across all ages.</li>
-                                <li>Communicated clearly with supervisors and guardians to ensure safety.</li>
+                                <li><a href="https://rsx.squarespace.com/">Robotics for Space Exploration Team (RSX)</a> - Worked with the team in developing a <b>ROS (Robot Operating System) and CAN (Controller Area Network) system</b> to control the <b>robotic arm on the RSX mars rover</b>.</li>
+                                <li><a href="https://github.com/YangXu-0/IngredientCheck">IngredientCheck</a> - A <b>convolutional neural network (CNN) with a VGG-like architecture</b> built in <b>PyTorch</b> that classifies ingredients in food photos with <b>~80% accuracy</b>.</li>
+                                <li><a href="https://github.com/YangXu-0/MalariArm">MalariArm</a> - An affordable <b>robotic arm that automates malaria microscopy preparation</b> to <b>decrease testing time by 30%</b>.</li>
+                                <li><a href="https://github.com/Ti1mmy/CheckinWithme">CheckInWithMe</a> - A Discord bot that uses <b>NLP models</b> to provide mental health support. <b>Won 2 awards</b> at Mental Health Hacks 2021.</li>
+                                <li><b>This website!</b> <a href="https://github.com/YangXu-0/personal-website">Built using React and JavaScript</a>.</li>
                             </ul>
                         </div>
                     </div>

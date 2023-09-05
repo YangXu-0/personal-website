@@ -8,8 +8,8 @@
     background-size: cover;
 
     display: grid;
-    grid-template-columns: 1fr 1000px 1fr;
-    grid-template-rows: 100px 150px 590px 1fr 200px;
+    grid-template-columns: 1fr 80vw 1fr;
+    grid-template-rows: 5% 12% 63% 1fr 15%;
     grid-template-areas: 
     ". . ."
     ". heading ."
@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 60px;
+    font-size: 300%;
     font-weight: bold;
     padding-bottom: 50px;
 }
@@ -31,7 +31,7 @@
 #table {
     grid-area: table;
     display: grid;
-    grid-template-columns: 1fr 250px 750px 1fr;
+    grid-template-columns: 1fr 20% 80% 1fr;
     grid-template-areas:
     ". jobs description .";
 
@@ -48,7 +48,7 @@
 }
 
 #job-listing {
-    font-size: 22px;
+    font-size: 140%;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -86,23 +86,59 @@
     box-shadow: 0px -100px 22px -3 var(--shadow-color);
 }
 
-/* start scaling this section, contact, and credits at 1600px width or maybe 1050px height*/
-@media only screen and (max-height: 1051px) {
+li b {
+    color: var(--bold-description-color);
+}
+
+p a {
+    color: var(--project-link-color) !important;
+    text-decoration: underline !important;
+}
+
+p a:hover {
+    color: var(--project-link-hovor-color) !important;
+    text-decoration: underline;
+}
+
+li a {
+    color: var(--project-link-color) !important;
+    text-decoration: underline !important;
+}
+
+li a:hover {
+    color: var(--project-link-hovor-color) !important;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 2000px) {
     #experience-container {
-        grid-template-columns: 1fr 850px 1fr;
-        grid-template-rows: 80px 150px 500px 1fr 200px;
+        display: grid;
+        grid-template-columns: 1fr 60vw 1fr;
+        grid-template-rows: 5% 15% 57% 1fr 18%;
+        grid-template-areas: 
+        ". . ."
+        ". heading ."
+        ". table ."
+        ". . ."
+        "curve curve curve";
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+    #experience-container {
+        display: grid;
+        grid-template-columns: 1fr 1100px 1fr;
+        grid-template-rows: 6% 8% 64% 1fr 18%;
+        grid-template-areas: 
+        ". . ."
+        ". heading ."
+        ". table ."
+        ". . ."
+        "curve curve curve";
     }
 
     #heading {
-        font-size: 50px;
-        padding-bottom: 0px;
-    }
-
-    #table {
-        grid-template-columns: 1fr 200px 650px 1fr;
-    }
-    
-    #job-listing {
-        font-size: 17px;
+        align-items: start;
     }
 }

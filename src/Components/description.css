@@ -5,8 +5,8 @@
     width: 100%;
 
     display: grid;
-    grid-template-columns: 1fr 650px 1fr;
-    grid-template-rows: 1fr 80px 40px 450px 1fr; 
+    grid-template-columns: 7% 1fr 7%;
+    grid-template-rows: 0.5fr 80px 40px 450px 1fr; 
     grid-template-areas:
     ". . ."
     ". heading ."
@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: flex-start;
 
-    font-size: 26px;
+    font-size: 180%;
     font-weight: bold;
 }
 
@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: flex-start;
 
-    font-size: 20px;
+    font-size: 130%;
 }
 
 .details {
@@ -43,21 +43,13 @@
 
     padding-top: 20px;
 
-    font-size: 23px;
-    line-height: 40px;
+    font-size: 140%;
+    line-height: 170%;
 }
 
-@media only screen and (max-height: 1051px) {
-    .description-container {
-        grid-template-columns: 1fr 550px 1fr;
-        grid-template-rows: 0.5fr 50px 30px 350px 1fr; 
-    }
-
+@media only screen and (max-width: 1500px) {
     .details {
-        font-size: 19px;
-    }
-
-    .job-heading {
-        font-size: 23px;
+        font-size: 130%;
+        line-height: 170%;
     }
 }
